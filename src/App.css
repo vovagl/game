@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(211, 215, 241);
+}
+
+.App {
+  text-align: center;
+  margin: 10px auto;
+}
+
+button{
+  padding: 5px;
+  margin: 5px 0;
+  background-color: green;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.field{
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reset{
+  background-color: red;
+  color: #000;
+  margin-top: 0;
+}
+
+@media (min-width:426px){
+  .field{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+    column-gap: 23px;
+  }
+}
+
+@media (min-width:769px){
+  .field{
+    margin: 0 125px;
+  }
+}
+
+@media (min-width:1025px){
+  .field{
+    margin: 0 315px;
+  }
+}
+
+@media (min-width:1441px){
+  .field{
+    margin: 0 600px;
+  }
+}

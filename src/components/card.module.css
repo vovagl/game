@@ -1,0 +1,52 @@
+.card{
+    position: relative;
+    width: 100%;
+    height: 135px;
+}
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;    
+}
+
+.card .front, img{
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.card .front{
+    transform: rotateY(90deg);
+    transition: ease 0.3s;
+    position: absolute;
+    font-size: clamp(64px, 5vw, 80px);
+    color: blue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open .front{
+    transform: rotateY(0deg);
+    transition-delay: 0.3s;
+}
+.card .back{
+    transition: ease 0.3s;
+    transition-delay: 0.3s;
+}
+.open .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+@media (min-width:426px){
+ .card{
+    height: 170px;
+ }
+}
+ @media (min-width:1441px){
+    .card{
+        height: 310px;
+    }
+} 
