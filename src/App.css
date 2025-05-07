@@ -5,10 +5,12 @@
 }
 
 body{
+  height: 100%;
   background-color: rgb(211, 215, 241);
 }
 
 .App {
+  height: 100%;
   text-align: center;
   margin: 10px auto;
 }
@@ -23,6 +25,8 @@ button{
 }
 
 .field{
+  min-height: 100%;
+  flex-grow: 1;
   margin: 5px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
