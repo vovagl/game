@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/vovagl/game.git/static/css/main.7315077b.css",
-    "main.js": "/vovagl/game.git/static/js/main.9d6e4e47.js",
-    "static/js/885.13ec6721.chunk.js": "/vovagl/game.git/static/js/885.13ec6721.chunk.js",
-    "static/js/453.31092eb6.chunk.js": "/vovagl/game.git/static/js/453.31092eb6.chunk.js",
-    "static/media/Tito & Tarantula - After Dark.mp3": "/vovagl/game.git/static/media/Tito & Tarantula - After Dark.649432935adea548706c.mp3",
-    "static/media/back.jpg": "/vovagl/game.git/static/media/back.4201be463c629291a4d7.jpg",
-    "index.html": "/vovagl/game.git/index.html",
-    "main.7315077b.css.map": "/vovagl/game.git/static/css/main.7315077b.css.map",
-    "main.9d6e4e47.js.map": "/vovagl/game.git/static/js/main.9d6e4e47.js.map",
-    "885.13ec6721.chunk.js.map": "/vovagl/game.git/static/js/885.13ec6721.chunk.js.map",
-    "453.31092eb6.chunk.js.map": "/vovagl/game.git/static/js/453.31092eb6.chunk.js.map"
+    "main.css": "/game/static/css/main.7315077b.css",
+    "main.js": "/game/static/js/main.fb16a21f.js",
+    "static/js/885.13ec6721.chunk.js": "/game/static/js/885.13ec6721.chunk.js",
+    "static/js/453.31092eb6.chunk.js": "/game/static/js/453.31092eb6.chunk.js",
+    "static/media/Tito & Tarantula - After Dark.mp3": "/game/static/media/Tito & Tarantula - After Dark.649432935adea548706c.mp3",
+    "static/media/back.jpg": "/game/static/media/back.4201be463c629291a4d7.jpg",
+    "index.html": "/game/index.html",
+    "main.7315077b.css.map": "/game/static/css/main.7315077b.css.map",
+    "main.fb16a21f.js.map": "/game/static/js/main.fb16a21f.js.map",
+    "885.13ec6721.chunk.js.map": "/game/static/js/885.13ec6721.chunk.js.map",
+    "453.31092eb6.chunk.js.map": "/game/static/js/453.31092eb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7315077b.css",
-    "static/js/main.9d6e4e47.js"
+    "static/js/main.fb16a21f.js"
   ]
 }
